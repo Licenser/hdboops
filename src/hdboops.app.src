@@ -1,0 +1,12 @@
+{application, hdboops,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { hdboops_app, []}},
+  {env, []}
+ ]}.
